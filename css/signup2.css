@@ -1,0 +1,74 @@
+body{
+	color: black;
+}
+.wrap{
+	width: 50%;
+	margin: 0 auto;
+}
+
+input[type=text], select, textarea,input[type=date] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 50px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer; 
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-top: 50px;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+.topnav {
+		  overflow: hidden;
+		  background-color: #333;
+		}
+
+		/* Style the topnav links */
+		.topnav a {
+		  float: right;
+		  display: inline-block;
+		  color: #f2f2f2;
+		  text-align: center;
+		  padding: 14px 16px;
+		  text-decoration: none;
+		  font-size: 20px;
+		}
+
+		/* Change color on hover */
+		.topnav a:hover {
+		  background-color: #800000;
+		  color: #fff;
+		}
+
+		.topnav #s{
+		  display: inline-block;
+		  color: #fff;
+		  font-size: 20px;
+		  font-weight: 600;
+		  padding: 12px 16px;
+		  float: left;
+
+
+		}
+
+		.topnav #s:hover{
+		  background-color: #333;
+		  color: #fff;
+		}
